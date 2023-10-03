@@ -1,0 +1,414 @@
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header*/
+h1 {
+    width: 202px;
+    height: 30px;
+    gap: 10px;
+}
+
+span {
+    color: #2886EB;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.nav {
+    width: 606px;
+    height: 16px;
+    text-align: center;
+    font-weight: 300;
+    display: flex;
+    gap: 55px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.cours {
+    height: 36px;
+    background-color: #2886EB;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    width: 202px;
+    padding: 10px 32px 10px 32px;
+    gap: 10px;
+}
+
+/*1 раздел*/
+
+.pg1 {
+    background-image: url(../../static/images/Group1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+    height: 535px;
+}
+
+.hd1 {
+    text-align: left;
+    font-size: 68px;
+    width: 752px;
+    height: 204px;
+}
+
+.learn {
+    background-color: white;
+    color: #2886EB;
+    border-color: #2886EB;
+    border-radius: 10px;
+    width: 169px;
+    height: 36px;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.desc {
+    width: 487px;
+    height: 44px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #767676;
+    margin-bottom: 50px;
+}
+
+.lego {
+    width: fixed 506px;
+    height: fixed 535px;
+    padding: 0 90px 0 90px;
+    gap: 10px;
+}
+
+/*2 раздел*/
+.pg2 {
+    background-color: #0000000A;
+    border-radius: 40px;
+    background-image: url(../../static/images/image1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+    width: 1200px;
+    height: 425px;
+    gap: 60px;
+}
+
+.block {
+    width: 422px;
+    height: 302px;
+    gap: 60px;
+    margin-left: 50px;
+}
+
+.hd2 {
+    width: 422px;
+    height: 106px;
+    font-size: 44px;
+    line-height: 52.8px;
+}
+
+.par2 {
+    width: 400px;
+    height: 78px;
+    font-size: 22px;
+    line-height: 26.4px;
+    color: #767676;
+}
+
+.inscours {
+    width: 161px;
+    height: 36px;
+    border: none;
+    background-color: #2886EB;
+    border-radius: 10px;
+    gap: 10px;
+    color: white;
+    margin-left: 50px;
+}
+
+/*3 раздел*/
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.hd3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.19px;
+    width: 429px;
+    height: 38px;
+}
+
+
+.par3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    width: 614px;
+    height: 66px;
+}
+
+div .ol {
+    background-color: #0000000A;
+    width: 390px;
+    height: 260px;
+    border-radius: 20px;
+    list-style: none;
+}
+
+div .ol h6 {
+    width: 30px;
+    height: 30px;
+    background-color: #2886EB;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 7mm;
+    margin-left: 7mm;
+}
+
+div .ol h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 285px;
+    height: 50px;
+}
+
+div .ol p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.09px;
+    width: 305px;
+    height: 80px;
+}
+
+.txt {
+    width: 340px;
+    height: 140px;
+    gap: 10px;
+    margin-left: 7mm;
+    margin-right: 7mm;
+    margin-bottom: 7mm;
+}
+
+.footpg3 {
+    background-color: #0000000A;
+    border-radius: 10px;
+    background-image: url(../../static/images/image2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+    height: 276px;
+    gap: 29px;
+}
+
+.marg {
+    margin-left: 1.5cm;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+
+.footpg3 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 170px;
+    height: 30px;
+    color: #767676;
+}
+
+.footpg3 h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    width: 725px;
+    height: 68px;
+}
+
+.footpg3 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    width: 725px;
+    height: 57px;
+}
+
+/*4 раздел*/
+.grids2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.grids2 h3 {
+    width: 258.75px;
+    height: 76px;
+    gap: 20px;
+}
+
+.pg4 h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.19px;
+    width: 352px;
+    height: 38px;
+}
+
+.stages h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    width: 258.75px;
+    height: 56px;
+    color: #2886EB;
+    border-bottom: #000000;
+}
+
+.stages h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 220px;
+    height: 65px;
+}
+
+.stages p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    width: 258.75px;
+    height: 62px;
+    color: #717171;
+}
+
+/*5 раздел*/
+.pg5 {
+    margin-bottom: 100px;
+}
+
+.pg5 img {
+    width: 600px;
+    height: 275px;
+    border-radius: 20px;
+    border: 0;
+    padding: 40px;
+    gap: 35px;
+}
+
+.pg5 .bg {
+    background-color: #0000000A;
+    width: 600px;
+    height: 214px;
+    border-radius: 0px 25px 25px 0px;
+    padding: 40px;
+    gap: 20px;
+}
+
+.pg5 h2 {
+    width: 520px;
+    height: 76px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #222222;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    margin-right: 1cm;
+}
+
+.pg5 p {
+    width: 520px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #222222;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    margin-right: 1cm;
+}
+
+/*Раздел с картинками*/
+.pictures {
+    width: 1200px;
+    height: 1076px;
+    gap: 50px;
+}
+
+/*Footer*/
+.blank h2 {
+    width: 73px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #222222;
+}
+
+.blank p {
+    width: 170px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.blank {
+    min-height: 30vh;
+}
+
+.footer {
+    color: #222222;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer .column h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    width: 169px;
+    height: 19px;
+    font-size: 19px;
+    line-height: 19px;
+    color: #2886EB;
+}
+
+.footer .column ul {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+.footer .column ul li {
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
