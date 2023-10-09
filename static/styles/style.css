@@ -412,3 +412,111 @@ div .ol p {
     line-height: 16px;
     color: #222222;
 }
+
+.cours:hover{
+    transform: scale(1.2);
+    background-color: #2762a0;
+    cursor: pointer;
+}
+
+.cours:active{
+    background-color: #646464;
+    transform: scale(1);
+    }
+
+.nav a:hover{
+    transform: scale(1.2);
+    color: #496ad4;
+}
+
+.nav a:active{
+    transform: scale(1);
+}
+
+.learn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.learn:active{
+    transform: scale(1);
+}
+
+.inscours:hover{
+    transform: scale(1.2);
+    background-color: #2762a0;
+    cursor: pointer;
+}
+
+.inscours:active{
+    transform: scale(1);
+    background-color: #646464;
+}
+
+.column ul li:hover{
+    transform: scale(1.2);
+    color: #161616b0;
+    cursor: pointer;
+}
+
+.column ul li:active{
+    transform: scale(1);
+}
+
+@media screen and (max-width: 1100px) {
+
+    .container{
+        max-width: 900px;
+    }
+
+    h1{
+        font-size: 24px;
+        gap: 5px;
+        width: 140px;
+    }
+
+    .nav{
+        font-size: 14px;
+        gap: 10px;
+        width: 450px;
+    }
+    
+    .cours{
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .hd1{
+        font-size: 40px;
+        width: 450px;
+        margin: 0;
+
+    }
+
+    .desc{
+        font-size: 18px;
+        width: 450px;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .pg1{
+        background-size: 220px;
+        background-position: 380px;
+    }
+
+    .pg2{
+    width: 900px;
+    background-size: 500px;
+    background-position: 400px 120px;
+    height: 350px;
+    }
+
+    .hd2{
+        font-size: 34px;
+    }
+
+    .par2{
+    font-size: 20px;
+    }
+}
